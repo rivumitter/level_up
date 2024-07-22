@@ -72,12 +72,12 @@ public class PracticeAll {
 
 
         // merge two sorted array
-        int[] arr1 = {1,4,5};
-        int[] arr2 = {2,6,3};
+        int[] arr1 = {1,2,3,0,0,0};
+        int[] arr2 = {2,5,6};
 
         Object[] mergedArray = IntStream.concat(Arrays.stream(arr1), Arrays.stream(arr2)).boxed().sorted().toArray(); // for primitive
 
-      //  System.out.println(Arrays.toString(mergedArray));
+        System.out.println(Arrays.toString(mergedArray));
 
         // concat two list of strings and remove duplicate
 

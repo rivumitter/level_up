@@ -54,7 +54,7 @@ public class ResourceData {
     }
 
     public Employee getRik() {
-        return new Employee("Ron",21,34014,18000,"Testing");
+        return new Employee("Rik",21,34014,18000,"Testing");
     }
 
     public Student getStudent1() {
@@ -78,7 +78,7 @@ public class ResourceData {
     }
 
 
-    public class Employee {
+    public static class Employee {
         String name;
         int age;
         int id;
